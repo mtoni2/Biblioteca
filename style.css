@@ -17,22 +17,43 @@ body {
 
 /* Estilo del buscador */
 .buscador-container {
-        display: flex; /* Permite alinear el buscador y el botón */
-        justify-content: center;
-        gap: 10px; /* Espacio entre el buscador y el botón */
-        padding: 0 10px;
+    display: flex; /* Alinea el buscador y el botón en una fila */
+    align-items: center; /* Centra los elementos verticalmente */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-bottom: 30px;
 }
 
 #busqueda {
-        width: 100%;
-        max-width: 250px; /* Limita el ancho para que no se pierda la forma */
-        border-radius: 25px; /* Asegura la redondez */
-    }
+    width: 100%;
+    max-width: 500px;
+    padding: 12px 20px;
+    border: 1px solid #ddd;
+    border-radius: 25px 0 0 25px; /* Redondea solo el lado izquierdo */
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+}
 
 #busqueda:focus {
     outline: none;
     border-color: #5d1d29;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del botón de búsqueda */
+#boton-buscar {
+    padding: 12px 20px;
+    background-color: #5d1d29;
+    color: #fff;
+    border: 1px solid #5d1d29;
+    border-radius: 0 25px 25px 0; /* Redondea solo el lado derecho */
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#boton-buscar:hover {
+    background-color: #4a1721;
 }
 
 /* Contenedor de los libros */
@@ -119,9 +140,25 @@ body {
 
 /* --- Ajustes para dispositivos móviles --- */
 @media only screen and (max-width: 600px) {
-
     .container {
         padding: 0 10px;
+    }
+
+    .buscador-container {
+        flex-direction: column; /* Apila el buscador y el botón */
+        gap: 15px; /* Espacio entre el buscador y el botón apilados */
+        padding: 0;
+    }
+
+    #busqueda {
+        width: 100%;
+        max-width: none;
+        border-radius: 25px; /* Redondea completamente el buscador */
+    }
+
+    #boton-buscar {
+        width: 100%; /* El botón ocupa todo el ancho */
+        border-radius: 25px; /* Redondea completamente el botón */
     }
 
     .libro-card {
