@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const librosContainer = document.getElementById('libros-container');
     const inputBusqueda = document.getElementById('busqueda');
+    const botonBuscar = document.getElementById('boton-buscar'); // Selecciona el nuevo botón
     let librosData = [];
 
     // Función para generar las tarjetas de los libros
@@ -33,6 +34,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Función para filtrar los libros
+    function filtrarLibros() {
+        const textoBusqueda = inputBusqueda.value.toLowerCase();
+        const librosFiltrados = librosData.filter(libro => {
+            return (
+                libro.titulo.toLowerCase().includes(textoBusqueda) ||
+                libro.autores.toLowerCase().includes(textoBusqueda) ||
+                libro.categorias.toLowerCase().includes(textoBusqueda) ||
+                libro.editorial.toLowerCase().includes(textoBusqueda) ||
+                (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda))
+            );
+        });
+        mostrarLibros(librosFiltrados);
+    }
+
     // Carga los datos de los libros desde el archivo JSON
     fetch('libros.json')
         .then(response => {
@@ -50,19 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
             librosContainer.innerHTML = `<p class="error-msg">Error al cargar la biblioteca. Por favor, verifica el archivo libros.json.</p>`;
         });
 
-    // Filtra los libros en tiempo real al escribir en el buscador
-    inputBusqueda.addEventListener('input', (e) => {
-        const textoBusqueda = e.target.value.toLowerCase();
-        const librosFiltrados = librosData.filter(libro => {
-            return (
-                libro.titulo.toLowerCase().includes(textoBusqueda) ||
-                libro.autores.toLowerCase().includes(textoBusqueda) ||
-                libro.categorias.toLowerCase().includes(textoBusqueda) ||
-                libro.editorial.toLowerCase().includes(textoBusqueda) ||
-                libro.codigo_o_isbn.toLowerCase().includes(textoBusqueda) ||
-                (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda))
-            );
-        });
-        mostrarLibros(librosFiltrados);
+    // Escucha el evento de clic en el botón de búsqueda
+    botonBuscar.addEventListener('click', filtrarLibros);
+
+    // Escucha el evento de "Enter" en el campo de búsqueda
+    inputBusqueda.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            filtrarLibros();
+        }
     });
+
+    // Escucha el evento de escritura en el campo de búsqueda (para búsqueda en tiempo real)
+    inputBusqueda.addEventListener('input', filtrarLibros);
 });
