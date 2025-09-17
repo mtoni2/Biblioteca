@@ -58,7 +58,7 @@ Debido a que es un proyecto estático, la adición de libros se realiza **manual
 📱 **Acceso vía código QR:**  
 Escanea el siguiente QR desde tu celular para abrir directamente la biblioteca:  
 
-*(Aquí puedes insertar la imagen de tu código QR)*  
+![Código QR de la biblioteca](https://github.com/mtoni2/Biblioteca/blob/main/imagenes/qr_code.png?raw=true)  
 
 ---
 
