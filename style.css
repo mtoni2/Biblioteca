@@ -17,20 +17,17 @@ body {
 
 /* Estilo del buscador */
 .buscador-container {
-    text-align: center;
-    margin-bottom: 30px;
+        display: flex; /* Permite alinear el buscador y el botón */
+        justify-content: center;
+        gap: 10px; /* Espacio entre el buscador y el botón */
+        padding: 0 10px;
 }
 
 #busqueda {
-    width: 100%;
-    max-width: 500px;
-    padding: 12px 20px;
-    border: 1px solid #ddd;
-    border-radius: 25px;
-    font-size: 16px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
-    transition: all 0.3s ease;
-}
+        width: 100%;
+        max-width: 250px; /* Limita el ancho para que no se pierda la forma */
+        border-radius: 25px; /* Asegura la redondez */
+    }
 
 #busqueda:focus {
     outline: none;
