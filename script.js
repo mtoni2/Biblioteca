@@ -15,14 +15,18 @@ document.addEventListener('DOMContentLoaded', () => {
             const libroCard = document.createElement('div');
             libroCard.className = 'libro-card';
             libroCard.innerHTML = `
-                <img src="imagenes/${libro.imagen}" alt="Imagen de ${libro.titulo}">
-                <div class="info">
+                <div class="card-header">
                     <h3>${libro.titulo}</h3>
-                    <p><strong>Autor:</strong> ${libro.autor}</p>
-                    <p><strong>Categoría:</strong> ${libro.categorias}</p>
-                    <p><strong>Editorial:</strong> ${libro.editorial}</p>
-                    <p><strong>ISBN:</strong> ${libro.codigo_o_isbn}</p>
-                    <p class="resumen">${libro.descripcion}</p>
+                </div>
+                <div class="card-body">
+                    <img src="imagenes/${libro.imagen}" alt="Imagen de ${libro.titulo}">
+                    <div class="card-info">
+                        <p><strong>Autor:</strong> ${libro.autores}</p>
+                        <p><strong>Categoría:</strong> ${libro.categorias}</p>
+                        <p><strong>Editorial:</strong> ${libro.editorial}</p>
+                        <p><strong>Código o ISBN:</strong> ${libro.codigo_o_isbn}</p>
+                        <p class="descripcion"><strong>Descripción:</strong> ${libro.descripcion}</p>
+                    </div>
                 </div>
             `;
             librosContainer.appendChild(libroCard);
@@ -52,10 +56,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const librosFiltrados = librosData.filter(libro => {
             return (
                 libro.titulo.toLowerCase().includes(textoBusqueda) ||
-                (libro.autor && libro.autor.toLowerCase().includes(textoBusqueda)) ||
-                (libro.categorias && libro.categorias.toLowerCase().includes(textoBusqueda)) ||
-                (libro.editorial && libro.editorial.toLowerCase().includes(textoBusqueda)) ||
-                (libro.codigo_o_isbn && libro.codigo_o_isbn.toLowerCase().includes(textoBusqueda)) ||
+                libro.autores.toLowerCase().includes(textoBusqueda) ||
+                libro.categorias.toLowerCase().includes(textoBusqueda) ||
+                libro.editorial.toLowerCase().includes(textoBusqueda) ||
+                libro.codigo_o_isbn.toLowerCase().includes(textoBusqueda) ||
                 (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda))
             );
         });
