@@ -1,7 +1,7 @@
 [
   {
     "titulo": "20 poemas de terror y una canción disparatada",
-	"imagen": "imagenes/1.jfif",
+	"imagen": "1.jfif",
     "autor": "Varios Autores",
     "categorias": "",
     "fecha_de_publicacion": "",
@@ -12,7 +12,7 @@
   },
   {
     "titulo": "200 años de poesía argentina",
-	"imagen": "imagenes/2.jpg",
+	"imagen": "2.jpg",
     "autor": "Jorge Monteleone",
     "categorias": "Argentine poetry",
     "fecha_de_publicacion": "01/01/2010",

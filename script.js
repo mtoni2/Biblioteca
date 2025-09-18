@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const botonBuscar = document.getElementById('boton-buscar');
     let librosData = [];
 
+    // Función para generar las tarjetas de los libros
     function mostrarLibros(libros) {
         librosContainer.innerHTML = '';
         if (libros.length === 0) {
@@ -33,6 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Función para filtrar los libros
     function filtrarLibros() {
         const textoBusqueda = inputBusqueda.value.toLowerCase();
         const librosFiltrados = librosData.filter(libro => {
@@ -47,6 +49,7 @@ document.addEventListener('DOMContentLoaded', () => {
         mostrarLibros(librosFiltrados);
     }
 
+    // Carga los datos de los libros desde el archivo JSON
     fetch('libros.json')
         .then(response => {
             if (!response.ok) {
@@ -63,13 +66,16 @@ document.addEventListener('DOMContentLoaded', () => {
             librosContainer.innerHTML = `<p class="error-msg">Error al cargar la biblioteca. Por favor, verifica el archivo libros.json.</p>`;
         });
 
+    // Escucha el evento de clic en el botón de búsqueda
     botonBuscar.addEventListener('click', filtrarLibros);
 
+    // Escucha el evento de "Enter" en el campo de búsqueda
     inputBusqueda.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
             filtrarLibros();
         }
     });
 
+    // Escucha el evento de escritura en el campo de búsqueda (para búsqueda en tiempo real)
     inputBusqueda.addEventListener('input', filtrarLibros);
 });
