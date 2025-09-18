@@ -23,10 +23,11 @@
   },
   {
     "titulo": "Adiós, Rapa Niu",
+	"imagen": "3.webp",
     "autor": "Olga Gil Lopez",
     "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
+    "fecha_de_publicacion": "2006",
+    "editorial": "Ediciones Del Eclipse S R L",
     "paginas": "",
     "codigo_o_isbn": "9789871580309",
     "descripcion": "Sin descripción"
