@@ -17,9 +17,9 @@ body {
 
 /* Estilo del buscador */
 .buscador-container {
-    display: flex; /* Alinea el buscador y el botón en una fila */
-    align-items: center; /* Centra los elementos verticalmente */
-    justify-content: center; /* Centra los elementos horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-bottom: 30px;
 }
 
@@ -28,7 +28,7 @@ body {
     max-width: 500px;
     padding: 12px 20px;
     border: 1px solid #ddd;
-    border-radius: 25px 0 0 25px; /* Redondea solo el lado izquierdo */
+    border-radius: 25px 0 0 25px;
     font-size: 16px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
@@ -46,7 +46,7 @@ body {
     background-color: #5d1d29;
     color: #fff;
     border: 1px solid #5d1d29;
-    border-radius: 0 25px 25px 0; /* Redondea solo el lado derecho */
+    border-radius: 0 25px 25px 0;
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
@@ -61,28 +61,28 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 25px; /* Espacio entre las tarjetas */
+    gap: 25px;
 }
 
-/* --- Estilo de la tarjeta de libro --- */
+/* Estilo de la tarjeta de libro */
 .libro-card {
     background-color: #fff;
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 280px; /* Ancho fijo para las tarjetas */
-    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    width: 280px;
+    overflow: hidden;
     display: flex;
     flex-direction: column;
 }
 
 /* Estilo del encabezado de la tarjeta con el título */
 .card-header {
-    background-color: #5d1d29; /* Color de fondo del título */
+    background-color: #5d1d29;
     color: #fff;
     padding: 15px;
     text-align: center;
     border-bottom: 1px solid #ddd;
-    min-height: 60px; /* Asegura un mínimo de altura */
+    min-height: 60px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -104,7 +104,7 @@ body {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto 15px; /* Centra la imagen y le da espacio abajo */
+    margin: 0 auto 15px;
 }
 
 /* Estilo de la información del libro */
@@ -138,27 +138,27 @@ body {
     font-weight: bold;
 }
 
-/* --- Ajustes para dispositivos móviles --- */
+/* Ajustes para dispositivos móviles */
 @media only screen and (max-width: 600px) {
     .container {
         padding: 0 10px;
     }
 
     .buscador-container {
-        flex-direction: column; /* Apila el buscador y el botón */
-        gap: 15px; /* Espacio entre el buscador y el botón apilados */
+        flex-direction: column;
+        gap: 15px;
         padding: 0;
     }
 
     #busqueda {
         width: 100%;
         max-width: none;
-        border-radius: 25px; /* Redondea completamente el buscador */
+        border-radius: 25px;
     }
 
     #boton-buscar {
-        width: 100%; /* El botón ocupa todo el ancho */
-        border-radius: 25px; /* Redondea completamente el botón */
+        width: 100%;
+        border-radius: 25px;
     }
 
     .libro-card {
