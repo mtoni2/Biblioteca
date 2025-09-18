@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <p><strong>Código o ISBN:</strong> ${libro.codigo_o_isbn}</p>
                         <p class="descripcion"><strong>Descripción:</strong> ${libro.descripcion}</p>
                     </div>
+                    ${libro.pdf ? `<a href="${libro.pdf}" class="boton-descarga" download>Descargar PDF</a>` : ''}
                 </div>
             `;
             librosContainer.appendChild(libroCard);
@@ -39,10 +40,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const textoBusqueda = inputBusqueda.value.toLowerCase();
         const librosFiltrados = librosData.filter(libro => {
             return (
-                libro.titulo.toLowerCase().includes(textoBusqueda) ||
-                libro.autor.toLowerCase().includes(textoBusqueda) || // Corrección: de "autores" a "autor"
-                libro.categorias.toLowerCase().includes(textoBusqueda) ||
-                libro.editorial.toLowerCase().includes(textoBusqueda) ||
+                (libro.titulo && libro.titulo.toLowerCase().includes(textoBusqueda)) ||
+                (libro.autor && libro.autor.toLowerCase().includes(textoBusqueda)) ||
+                (libro.categorias && libro.categorias.toLowerCase().includes(textoBusqueda)) ||
+                (libro.editorial && libro.editorial.toLowerCase().includes(textoBusqueda)) ||
                 (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda)) ||
                 (libro.codigo_o_isbn && libro.codigo_o_isbn.toLowerCase().includes(textoBusqueda))
             );
@@ -73,6 +74,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Escucha el evento de "Enter" en el campo de búsqueda
     inputBusqueda.addEventListener('keydown', (e) => {
         if (e.key === 'Enter') {
+            e.preventDefault();
             filtrarLibros();
         }
     });
