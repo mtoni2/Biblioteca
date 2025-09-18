@@ -57,7 +57,7 @@
   },
   {
     "titulo": "Alrededor de la jaula",
-	"imagen": "6.jfif",
+	"imagen": "6.webp",
     "autor": "Haroldo Conti",
     "categorias": "Novela literaria",
     "fecha_de_publicacion": "",
@@ -65,6 +65,7 @@
     "paginas": "",
     "codigo_o_isbn": "9789500437509",
     "descripcion": "En el transcurso de sus páginas, Milo, que empieza siendo un chico, deja la infancia para siempre mientras se apaga la vida de Silvestre, el viejo que lo crió."
+	"pdf": "https://drive.google.com/file/d/1wn4ncfEsT7W4ciJUfVpqV9cah2BEt9-T/view?usp=drive_link"
   },
   {
     "titulo": "Anaxalimma",
