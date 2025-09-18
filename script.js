@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="card-body">
                     <img src="imagenes/${libro.imagen}" alt="Imagen de ${libro.titulo}">
                     <div class="card-info">
-                        <p><strong>Autor:</strong> ${libro.autores}</p>
+                        <p><strong>Autor:</strong> ${libro.autor}</p>
                         <p><strong>Categoría:</strong> ${libro.categorias}</p>
                         <p><strong>Editorial:</strong> ${libro.editorial}</p>
                         <p><strong>Código o ISBN:</strong> ${libro.codigo_o_isbn}</p>
@@ -40,10 +40,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const librosFiltrados = librosData.filter(libro => {
             return (
                 libro.titulo.toLowerCase().includes(textoBusqueda) ||
-                libro.autores.toLowerCase().includes(textoBusqueda) ||
+                libro.autor.toLowerCase().includes(textoBusqueda) || // Corrección: de "autores" a "autor"
                 libro.categorias.toLowerCase().includes(textoBusqueda) ||
                 libro.editorial.toLowerCase().includes(textoBusqueda) ||
-                (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda))
+                (libro.descripcion && libro.descripcion.toLowerCase().includes(textoBusqueda)) ||
+                (libro.codigo_o_isbn && libro.codigo_o_isbn.toLowerCase().includes(textoBusqueda))
             );
         });
         mostrarLibros(librosFiltrados);
