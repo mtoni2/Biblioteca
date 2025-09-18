@@ -12,6 +12,7 @@
   },
   {
     "titulo": "200 años de poesía argentina",
+	"imagen": "imagenes/2.jpg",
     "autor": "Jorge Monteleone",
     "categorias": "Argentine poetry",
     "fecha_de_publicacion": "01/01/2010",
