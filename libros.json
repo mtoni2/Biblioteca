@@ -71,12 +71,13 @@
     "titulo": "Anaxalimma",
 	"imagen": "7.jpg",
     "autor": "Raúl Ignacio Verano",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
-    "codigo_o_isbn": "",
+    "categorias": "Literatura y ficción",
+    "fecha_de_publicacion": "2013",
+    "editorial": "De Los Cuatro Vientos",
+    "paginas": "245",
+    "codigo_o_isbn": "9507820469",
     "descripcion": "Sin descripción"
+	"pdf": "https://drive.google.com/file/d/1E8LsvovlaucrF0ovK3NQTgTKmEnp9_pm/view?usp=drive_link"
   },
   {
     "titulo": "Antígona vélez",
