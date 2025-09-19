@@ -80,13 +80,15 @@
   },
   {
     "titulo": "Antígona vélez",
+	"imagen": "8.jfif",
     "autor": "Leopoldo Marechal",
     "categorias": "",
     "fecha_de_publicacion": "",
     "editorial": "",
     "paginas": "",
     "codigo_o_isbn": "9789876849531",
-    "descripcion": "Sin descripción"
+    "descripcion": "El mito de Antígona recreado por Marechal en clave de honda poesía dramática y en un contexto bien particular: la pampa cuando aún era teatro de la lucha entre indios y blancos.",
+	"pdf": "https://drive.google.com/file/d/1JtaNImve2yqtlJnOJGpE-QFnIodFlQu-/view?usp=drive_link"
   },
   {
     "titulo": "Antología de los cuentistas latinoamericanos",
