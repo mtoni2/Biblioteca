@@ -93,11 +93,12 @@
   },
   {
     "titulo": "Antología de los cuentistas latinoamericanos",
+	"imagen": "9.jfif",
     "autor": "Varios Autores",
     "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "fecha_de_publicacion": "1986",
+    "editorial": "Colihue",
+    "paginas": "362",
     "codigo_o_isbn": "9789876848831",
     "descripcion": "Sin descripción"
   },
