@@ -148,13 +148,14 @@
   },
   {
     "titulo": "Bocas del tiempo",
+	"imagen": "14.png",
     "autor": "Eduardo Galeano",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "NARRATIVA IBEROAMERICANA CONTEMPORÁNEA",
+    "fecha_de_publicacion": "2015",
+    "editorial": "SIGLO 21",
+    "paginas": "360",
     "codigo_o_isbn": "9789876295574",
-    "descripcion": "Sin descripción"
+    "descripcion": "Este libro ofrece una multitud de pequeñas historias que cuentan, juntas, una sola historia. ",
   },
   {
     "titulo": "Carta Al Sargento Kirk Y Otros Poemas De Ocasion",
