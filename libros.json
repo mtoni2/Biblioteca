@@ -137,11 +137,12 @@
   },
   {
     "titulo": "Aventuras de un porteño en tiempos de la colonia",
+	"imagen": "12.webp",
     "autor": "Jorge Colombo",
     "categorias": "",
-    "fecha_de_publicacion": "",
+    "fecha_de_publicacion": "2013",
     "editorial": "",
-    "paginas": "",
+    "paginas": "168",
     "codigo_o_isbn": "9789875023437",
     "descripcion": "Sin descripción"
   },
