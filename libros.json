@@ -169,10 +169,11 @@
     "descripcion": "Sin descripción"
   },
   {
-    "titulo": "Cartas A theo/ Letters to Theo (Biografias Y Testimonios / Biographies \nand Testimonies) (Spanish Edition)",
+    "titulo": "Cartas A theo(Biografias Y Testimonios)(Spanish Edition)",
+	"imagen": "16.jpg",
     "autor": "Vincent Van Gogh, Fabian Lebenglik",
     "categorias": "",
-    "fecha_de_publicacion": "",
+    "fecha_de_publicacion": "2022",
     "editorial": "Adriana Hidalgo Editora S.A.",
     "paginas": "397",
     "codigo_o_isbn": "9789879396315",
