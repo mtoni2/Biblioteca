@@ -203,13 +203,14 @@
   },
   {
     "titulo": "Como Si No Hubiera Que Cruzar El Mar (Spanish Edition)",
-    "autor": "CECILIA PISOS",
+	"imagen": "19.jpg",
+    "autor": "Cecilia Pisos",
     "categorias": "",
-    "fecha_de_publicacion": "",
+    "fecha_de_publicacion": "2016",
     "editorial": "SANTILLANA",
-    "paginas": "",
+    "paginas": "216",
     "codigo_o_isbn": "9789870400295",
-    "descripcion": "Sin descripción"
+    "descripcion": "Carolina tiene doce años y viaja por primera vez sola en avión hacia Madrid, donde la espera su tío. La acompañan las cartas de María, su bisabuela, que también cruzó el mar sola, pero en barco y desde España hacia Argentina."
   },
   {
     "titulo": "Con el che x Sudamérica",
