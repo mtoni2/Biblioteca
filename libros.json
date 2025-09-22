@@ -214,13 +214,14 @@
   },
   {
     "titulo": "Con el che x Sudamérica",
+	"imagen": "20.webp",
     "autor": "Alberto Granado",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "Historia",
+    "fecha_de_publicacion": "2013",
+    "editorial": "Marea",
+    "paginas": "200",
     "codigo_o_isbn": "9789871307562",
-    "descripcion": "Sin descripción"
+    "descripcion": "El mítico viaje por Latinoamérica de Ernesto Guevara y Alberto Granado que inspiró la película Diarios de motocicleta de Walter Salles."
   },
   {
     "titulo": "Con la sola compañía de la luna",
