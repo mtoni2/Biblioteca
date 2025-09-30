@@ -302,13 +302,14 @@
   },
   {
     "titulo": "Cuentos con detectives y comisarios",
+	"imagen": "28.jpg",
     "autor": "Coligue Edición",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "Literatura",
+    "fecha_de_publicacion": "1998",
+    "editorial": "Coligue",
+    "paginas": "204",
     "codigo_o_isbn": "9789876849524",
-    "descripcion": "Sin descripción"
+    "descripcion": "Esta antología de Cuentos con detectives y comisarios, preparada por las profesoras Elena Braceras y Cristina Leitour, inicia en la Colección Literaria LyC (Leer y Crear) un nuevo criterio de selección que parte de una determinada especie o tipo de relato."
   },
   {
     "titulo": "Cuentos De Rock Y Otras Musicas Menores",
