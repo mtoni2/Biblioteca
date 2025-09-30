@@ -269,13 +269,14 @@
   },
   {
     "titulo": "Cuentos",
+	"imagen": "25.webp",
     "autor": "Antonio di Benedetto",
-    "categorias": "",
+    "categorias": "NARRATIVA",
     "fecha_de_publicacion": "",
     "editorial": "",
     "paginas": "",
     "codigo_o_isbn": "9789873793899",
-    "descripcion": "Sin descripción"
+    "descripcion": "Antonio Di Benedetto es un fenómeno literario, un escritor anticlásico, que practicó una literatura silenciosa, inestable, en cambio constante. Un escritor que no cabe en el molde uniforme de la canonización, un escritor extraño o, mejor, un escritor de la extrañeza, del extrañamiento."
   },
   {
     "titulo": "Cuentos + Cuentos",
