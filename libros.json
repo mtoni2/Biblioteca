@@ -290,11 +290,12 @@
   },
   {
     "titulo": "Cuentos completos",
+	"imagen": "27.webp",
     "autor": "Haroldo Conti",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "Cuento",
+    "fecha_de_publicacion": "2022",
+    "editorial": "Emecé",
+    "paginas": "344",
     "codigo_o_isbn": "9789500437516",
     "descripcion": "Sin descripción"
   },
