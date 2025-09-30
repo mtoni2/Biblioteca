@@ -258,13 +258,14 @@
   },
   {
     "titulo": "Corazón alado",
+	"imagen": "24.jfif",
     "autor": "Miguel Hernández",
-    "categorias": "",
+    "categorias": "ANTOLOGIA POETICA",
     "fecha_de_publicacion": "",
-    "editorial": "",
+    "editorial": "VICENS VIVES",
     "paginas": "",
     "codigo_o_isbn": "9789871291502",
-    "descripcion": "Sin descripción"
+    "descripcion": "Vida y poesía se funden en los emotivos versos de Miguel Hernández, un corazón alado y generoso en cuya breve y trágica existencia supo aunar el amor a la naturaleza, a la esposa y a los hijos con la lucha por  la libertad, la solidaridad con los oprimidos o la denuncia de la guerra."
   },
   {
     "titulo": "Cuentos",
