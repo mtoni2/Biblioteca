@@ -368,11 +368,12 @@
   },
   {
     "titulo": "Días de noche de amor y de guerra",
+	"imagen": "34.webp",
     "autor": "Eduardo Galeano",
-    "categorias": "",
+    "categorias": "Ficción y literatura",
     "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "editorial": "Siglo XXI Editores Argentina",
+    "paginas": "224",
     "codigo_o_isbn": "9789876295598",
     "descripcion": "Sin descripción"
   },
