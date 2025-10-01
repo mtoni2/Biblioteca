@@ -346,13 +346,14 @@
   },
   {
     "titulo": "Cuidado que hay trampa",
+	"imagen": "32.webp",
     "autor": "Ana María Shua",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "Literatura y ficción",
+    "fecha_de_publicacion": "2014",
+    "editorial": "SUDAMERICANA ",
+    "paginas": "96",
     "codigo_o_isbn": "9789500742016",
-    "descripcion": "Sin descripción"
+    "descripcion": "Para bien y para mal, animales o humanos, los pícaros recorren el mundo buscando víctimas para sus divertidos trucos y engaños. Hasta aprendieron a usar Internet, porque la tecnología cambia mucho… pero la gente no."
   },
   {
     "titulo": "Culturas y Esteticas Contemporaneas 3 - Polimodal",
