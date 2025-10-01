@@ -335,11 +335,12 @@
   },
   {
     "titulo": "Cuentos fantasticos latinoamericano",
+	"imagen": "31.jpg",
     "autor": "Varios Autores",
-    "categorias": "",
-    "fecha_de_publicacion": "",
+    "categorias": "Ficción",
+    "fecha_de_publicacion": "2021",
     "editorial": "",
-    "paginas": "",
+    "paginas": "110",
     "codigo_o_isbn": "9789874198280",
     "descripcion": "Sin descripción"
   },
