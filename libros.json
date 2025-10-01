@@ -324,11 +324,12 @@
   },
   {
     "titulo": "Cuentos extraños y fantásticos",
+	"imagen": "30.jpg",
     "autor": "Varios Autores",
-    "categorias": "",
-    "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "categorias": "Ficción",
+    "fecha_de_publicacion": "2013",
+    "editorial": "Estrada",
+    "paginas": "87",
     "codigo_o_isbn": "9789500113472",
     "descripcion": "Sin descripción"
   },
