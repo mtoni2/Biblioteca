@@ -313,13 +313,14 @@
   },
   {
     "titulo": "Cuentos De Rock Y Otras Musicas Menores",
+	"imagen": "29.webp",
     "autor": "AIME FERNANDO",
-    "categorias": "",
+    "categorias": "Cuentos",
     "fecha_de_publicacion": "",
     "editorial": "HOMO SAPIENS",
     "paginas": "184",
     "codigo_o_isbn": "9789508085627",
-    "descripcion": "Sin descripción"
+    "descripcion": "Como la música, los libros inmortalizan sentimientos."
   },
   {
     "titulo": "Cuentos extraños y fantásticos",
