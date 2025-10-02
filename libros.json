@@ -390,13 +390,14 @@
   },
   {
     "titulo": "Diciembre, Super Album (Spanish Edition)",
+	"imagen": "36.webp",
     "autor": "Liliana Bodoc",
-    "categorias": "",
-    "fecha_de_publicacion": "",
+    "categorias": "Ficción y literatura",
+    "fecha_de_publicacion": "2003",
     "editorial": "Alfaguara",
-    "paginas": "",
+    "paginas": "126",
     "codigo_o_isbn": "9789505118960",
-    "descripcion": "Sin descripción"
+    "descripcion": "Un guionista de historietas ha sido despedido de la editorial donde trabaja, pero antes de hacerse efectivo el despido, debe terminar una serie titulada “El viajante”, la que será publicada en el Súper Álbum de diciembre."
   },
   {
     "titulo": "Distancia de rescate",
