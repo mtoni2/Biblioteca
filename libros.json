@@ -280,11 +280,12 @@
   },
   {
     "titulo": "Cuentos + Cuentos",
+	"imagen": "41.jpg",
     "autor": "Varios Autores",
-    "categorias": "",
-    "fecha_de_publicacion": "",
+    "categorias": "Ficción",
+    "fecha_de_publicacion": "2013",
     "editorial": "",
-    "paginas": "",
+    "paginas": "110",
     "codigo_o_isbn": "9789871565436",
     "descripcion": "Sin descripción"
   },
