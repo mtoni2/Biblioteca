@@ -412,11 +412,12 @@
   },
   {
     "titulo": "Educacion Civica 1 - Secundaria",
+	"imagen": "38.webp",
     "autor": "Alicia B. Casullo",
-    "categorias": "",
-    "fecha_de_publicacion": "10/1999",
+    "categorias": "Humanidades",
+    "fecha_de_publicacion": "1996",
     "editorial": "Santillana S.A.",
-    "paginas": "",
+    "paginas": "159",
     "codigo_o_isbn": "9789504603139",
     "descripcion": "Sin descripción"
   },
