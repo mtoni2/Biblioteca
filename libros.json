@@ -379,13 +379,14 @@
   },
   {
     "titulo": "Diccionario Folklorico Argentino (Spanish Edition)",
+	"imagen": "35.png",
     "autor": "Felix y Marta Coluccio",
-    "categorias": "",
+    "categorias": "Música",
     "fecha_de_publicacion": "",
     "editorial": "Corregidor",
     "paginas": "1096",
     "codigo_o_isbn": "9789500516198",
-    "descripcion": "Sin descripción"
+    "descripcion": "Es una de las contribuciones mas serias que que se hayan realizado sobre el tema. Es un estudio exhaustivo de mas de 1000 paginas con numerosas ilustraciones sobre la expresion folklorica nacional."
   },
   {
     "titulo": "Diciembre, Super Album (Spanish Edition)",
