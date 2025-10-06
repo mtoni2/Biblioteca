@@ -453,15 +453,16 @@
     "editorial": "Alfaguara",
     "paginas": "",
     "codigo_o_isbn": "9789870405733",
-    "descripcion": "Sin descripción"
+    "descripcion": "El siglo XXI no está resultando ser un gran siglo. Los abusos de un sistema formado por ricos cada vez más ricos y jodidos muy jodidos están a la orden del día."
   },
   {
     "titulo": "El cazador de historias",
+	"imagen": "42.jpg",
     "autor": "Eduardo Galeano",
-    "categorias": "",
+    "categorias": "Literatura y ficción",
     "fecha_de_publicacion": "",
-    "editorial": "",
-    "paginas": "",
+    "editorial": "Siglo Veinttiuno Eds.",
+    "paginas": "272",
     "codigo_o_isbn": "9789878010731",
     "descripcion": "Sin descripción"
   },
