@@ -468,13 +468,14 @@
   },
   {
     "titulo": "El colectivo",
+	"imagen": "43.jpg",
     "autor": "Eugenia Almeida",
     "categorias": "Fiction",
     "fecha_de_publicacion": "01/09/2022",
     "editorial": "EDHASA",
     "paginas": "128",
     "codigo_o_isbn": "9789876280525",
-    "descripcion": "Sin descripción"
+    "descripcion": "Con una prosa serena y un exquisito don para crear climas, Eugenia Almeida ambienta esta historia a mediados de los setenta en la Argentina, en una pequeña aldea que estaba segura de vivir en un orden natural."
   },
   {
     "titulo": "El cuarto prohibido",
