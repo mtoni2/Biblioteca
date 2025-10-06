@@ -446,9 +446,10 @@
   },
   {
     "titulo": "El Candelabro de Plata y Otros Cuentos",
+	"imagen": "41.webp",
     "autor": "Abelardo Castillo",
-    "categorias": "",
-    "fecha_de_publicacion": "10/2006",
+    "categorias": "Ficción infantil",
+    "fecha_de_publicacion": "2006",
     "editorial": "Alfaguara",
     "paginas": "",
     "codigo_o_isbn": "9789870405733",
